@@ -1,0 +1,40 @@
+body {
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.cuadro {
+  background-color: #ff99cc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cuadro p {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#continuarBtn {
+  background-color: #ff6699;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
